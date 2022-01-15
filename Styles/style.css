@@ -28,6 +28,10 @@ a{
     padding: 10px 20px;
     font-weight: 500;
     border-radius: 10px;
+    transition: .3s;
+}
+.btn:hover{
+    background-color: #ad2356;
 }
     /*---------
     Nav Style 
@@ -110,6 +114,10 @@ Head-blog style
     font-size: 1.2em;
     font-weight: 600;
     margin-left: 965px;
+    transition: 0.3s;
+}
+#popular-collection>a:hover{
+    color: #8b1e46;  
 }
 .popular-items{
     display: grid;
